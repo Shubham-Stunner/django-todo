@@ -16,10 +16,6 @@ pipeline {
     }
     
     post {
-        always {
-             echo 'Performing cleanup...'
-        }
-        
         success {
             echo 'Pipeline succeeded!'
         }
@@ -29,4 +25,5 @@ pipeline {
         }
     }
 }
+
 
