@@ -17,7 +17,7 @@ pipeline {
     
     post {
         always {
-            sh 'docker-compose down'
+             echo 'Performing cleanup...'
         }
         
         success {
